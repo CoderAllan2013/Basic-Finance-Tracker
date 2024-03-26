@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <title>Finance Tracker</title>
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <center>
+        <h1 class="header_top">Finance Tracker</h1>
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <h2 class="header">Revenue</h1>
+                <br>
+                <table style="width:40%">
+                    <tr>
+                        <th>Revenue</th>
+                        <th>INR</th>
+                    </tr>
+                    <tr>
+                        <td>Revenue 1</td>
+                        <td><input type="text" id="r1" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Revenue 2</td>
+                        <td><input type="text" id="r2" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Revenue 3</td>
+                        <td><input type="text" id="r3" name="lname">INR</td>
+                    </tr>
+                </table>
+                <label id="total_revenue" class="display">Your total revenue is </label>
+                <br>
+                <button class="btn btn-success" onclick="revenue()" id="submite">submite</button>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <h2 class="header">Expance</h1>
+                <table style="width:40%">
+                    <tr>
+                        <th>Expence</th>
+                        <th>INR</th>
+                    </tr>
+                    <tr>
+                        <td>Expence 1</td>
+                        <td><input type="text" id="e1" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Expence 2</td>
+                        <td><input type="text" id="e2" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Expence 3</td>
+                        <td><input type="text" id="e3" name="lname">INR</td>
+                    </tr>
+                </table>
+                <label id="total_expance" class="display">Your total expance is </label>
+                <br>
+                <button class="btn btn-success" onclick="expance()" id="submite">submite</button>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <h2 class="header">Savings</h1>
+                <table style="width:40%">
+                    <tr>
+                        <th>Savings</th>
+                        <th>INR</th>
+                    </tr>
+                    <tr>
+                        <td>Savings 1</td>
+                        <td><input type="text" id="s1" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Savings 2</td>
+                        <td><input type="text" id="s2" name="lname">INR</td>
+                    </tr>
+                    <tr>
+                        <td>Savings 3</td>
+                        <td><input type="text" id="s3" name="lname">INR</td>
+                    </tr>
+                </table>
+                <label id="total_savings" class="display">Your total savings is </label>
+                <br>
+                <button class="btn btn-success" onclick="savings()" id="submite">submite</button>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="copy_right_footer">
+            Created by : Allan Xavier
+        </div>
+    </center>
+
+</body>
+
+</html>
